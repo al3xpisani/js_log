@@ -1,0 +1,34 @@
+/* Put your styles and imports here */
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+#scene-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#scene-openHelper {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  background-image: url("https://i.ibb.co/jvyvBW1/help-icon64.png") !important;
+}
+#scene-containerHelp {
+  position: absolute;
+  background-color: #f9f1f1;
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
